@@ -6,6 +6,8 @@
            review="https://review.lineageos.org/"
            revision="refs/heads/lineage-21.0" />
 
+  <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
+  <project path="external/armnn" name="android_external_armnn" remote="lineage" />
   <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
@@ -13,10 +15,11 @@
   <project path="external/libvpx" name="android_external_libvpx" remote="lineage" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
+  <project path="external/webp" name="android_external_webp" remote="lineage" />
   <project path="external/zstd" name="android_external_zstd" remote="lineage" />
-  <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
+  <!-- <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="lineage" />
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
-  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" /> -->
   <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="lineage" />
   <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="lineage" />
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage" />
@@ -50,9 +53,11 @@
   <!-- Inline kernel build -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
-  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" remote="lineage" />  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" remote="lineage" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" remote="lineage" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.17" />
   <project path="prebuilts/tools-cherish" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- CodeLinaro additions -->
