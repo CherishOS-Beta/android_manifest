@@ -115,12 +115,12 @@
   <!-- <project path="packages/services/VncFlinger" name="LMODroid/platform_packages_services_VncFlinger" groups="pdk-cw-fs,pdk-fs" revision="thirteen" remote="github" />-->
   
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="cherish" />
+  <!-- <project path="system/core" name="android_system_core" remote="cherish" />
   <project path="system/extras" name="android_system_extras" remote="cherish" />
   <project path="system/libhidl" name="android_system_libhidl" remote="cherish" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="cherish" />
   <project path="system/logging" name="android_system_logging" remote="cherish" />
-  <project path="system/media" name="android_system_media" remote="cherish" />
+  <project path="system/media" name="android_system_media" remote="cherish" /> -->
   <!-- <project path="system/security" name="android_system_security" remote="cherish" /> -->
   <project path="system/sepolicy" name="android_system_sepolicy" remote="cherish" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="cherish" />
